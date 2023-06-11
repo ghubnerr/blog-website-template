@@ -1,0 +1,24 @@
+{
+  "name": "blog-website",
+  "version": "1.0.0",
+  "description": "My first Blog Website!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghubnerr/blog-website-temp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghubnerr/blog-website-temp/issues"
+  },
+  "homepage": "https://github.com/ghubnerr/blog-website-temp#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
