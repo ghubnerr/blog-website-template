@@ -10,6 +10,7 @@ To run this application on your local machine, please follow the steps below:
 Make sure you have the following software installed on your machine:
 - Node.js (version 12 or above)
 - npm (Node Package Manager)
+- A MongoDB database connection string. Find more at [mongodb.com/atlas](https://www.mongodb.com/atlas)
 
 ### Installation
 1. Clone the repository or download the source code: ```git clone https://github.com/ghubnerr/blog-website-template/```
@@ -22,9 +23,12 @@ Make sure you have the following software installed on your machine:
 - `body-parser`
 - `ejs`
 - `lodash`
+- `mongoose`
+- `dotenv`
 
 2. In the `app.js` file, you can modify the homeStartingContent, aboutStartingContent, and contactStartingContent variables to customize the starting content of the respective pages. You can also edit the footer to your liking.
 3. In the terminal, run the following command to start the server: ```node app.js```
+4. Create a separate `.env` file according to the sample file and edit your environment variables from there
 
 ## Accessing the Application
 You can access the blog website by opening your web browser and visiting `http://localhost:3000`.
@@ -40,7 +44,7 @@ To create a new blog post:
 3. Enter the content of your blog post in the "Body" field.
 4. Click the "Publish" button to submit the post.
 
-The post will be saved, and you will be redirected to the home page where you can see the newly published post.
+The post will be saved, and you will be redirected to the home page where you can see the newly published post. With a Cloud-hosted MongoDB Atlas integration, your posts will not be lost, and you can even access them from the Atlas UI website to perform multiple operations with it.
 
 ## Viewing Individual Blog Posts
 Each blog post can be viewed individually by clicking on its title on the home page.
